@@ -1,0 +1,26 @@
+Az cloud -> Subscription -> free,pay as you go
+Az provide access -> IAAS,PAAS,SAAS
+Resource Group
+For VM creation- create a vm,vnet,publicip,network interface,nsg,disk.
+
+wndows vm has default os disk and data disk is required for writing the data disk.
+
+Vnet: 5 ip's are reserved
+RG name and vnet name
+NSG: 5 tuple information -> sourceip,destination ip,source port,destination port,protocol
+
+DataDisk: mandatory for storing the disks.
+
+managed and unmanaged disks: SA is created by MS and all maintenance is taken care by ms
+- SA - gpv1,gpv2,
+- sku performance: standard/premium
+replicatiion redundacny - LRS,ZRS,GRS,RA-GRS
+LRS- 3 Copies of data stored in same single storage 
+ZRS- 3 copies of data is store in one or more Dc in a region
+GRS (geo)- 3 copies in primary region and 3 copies in secondary region , access given when primiary fails
+RA-GRS - GRS+RA access is given at same time.
+
+Types of storage:
+- Blob/Contaniner,file service,table service,Queue service
+
+Blob: block blob- 4.7 tb, page blolb- 8tb, append blob-256 mb
