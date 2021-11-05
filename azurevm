@@ -24,3 +24,9 @@ Types of storage:
 - Blob/Contaniner,file service,table service,Queue service
 
 Blob: block blob- 4.7 tb, page blolb- 8tb, append blob-256 mb
+Availabilty sets
+-------------------------- Load balancer----------------------------
+- Network Load balancer : Works at layer4 and traffic is controlled using health of end points, Public and Internal. Health probe and lbrule
+- Traffic Manager: 
+- Application Gateway:
+ 
